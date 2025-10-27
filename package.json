@@ -1,0 +1,17 @@
+{
+  "name": "agent-ide",
+  "version": "0.1.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-forge make"
+  },
+  "devDependencies": {
+    "electron": "^latest",
+    "electron-forge": "^latest"
+  },
+  "dependencies": {
+    "@openai/agents": "^latest",
+    "dotenv": "^latest"
+  }
+}
